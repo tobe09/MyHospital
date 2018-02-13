@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A1C8F9D-37FE-49C1-8F1F-D4077126CC61}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HospitalManager</RootNamespace>
+    <AssemblyName>HospitalManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\packages\AjaxControlToolkit.17.1.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="App_Data\Info.txt" />
+    <Content Include="App_Data\Log Old.txt" />
+    <Content Include="App_Data\Log.txt" />
+    <Content Include="App_Data\ThreadAbortExceptions.txt" />
+    <Content Include="Auditing.aspx" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.css" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.min.css" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.css" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.min.css" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap.css" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\js\bootstrap.js" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\js\bootstrap.min.js" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="DeleteInformationPage.aspx" />
+    <Content Include="Departments.aspx" />
+    <Content Include="DiscDeptWard.aspx" />
+    <Content Include="Doctors.aspx" />
+    <Content Include="WardTestListView.aspx" />
+    <Content Include="WorkSchedule.aspx" />
+    <Content Include="DoctorStaffHistory.aspx" />
+    <Content Include="Images\20151211_153331[1].jpg" />
+    <Content Include="Images\UploadProfilePicture.PNG" />
+    <Content Include="Contact.aspx" />
+    <Content Include="DeptWardPage.aspx" />
+    <Content Include="PatientDisabilities.aspx" />
+    <Content Include="Patients.aspx" />
+    <Content Include="RelDeptWardPage.aspx" />
+    <Content Include="HospitalMaster.Master" />
+    <Content Include="AddInformationPage.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="Controls\MailForm.ascx" />
+    <Content Include="HospitalMaster2.master" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.css.map" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.css.map" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap.css.map" />
+    <Content Include="bootstrap-4.0.0-alpha.6-dist\css\bootstrap.min.css.map" />
+    <None Include="Properties\PublishProfiles\nephosp.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Login.aspx" />
+    <Content Include="RegAdminSup.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="DoctorsStaff.aspx" />
+    <Content Include="Testimonials.aspx" />
+    <Content Include="LoggedInPage.aspx" />
+    <Content Include="TestPage.aspx" />
+    <Content Include="Unsubscribe.aspx" />
+    <Content Include="UpdateRegistration.aspx" />
+    <Content Include="Uploads\MicosoftLogo.png" />
+    <Content Include="Uploads\microsoftLogo.png" />
+    <Content Include="Uploads\NeptuneLogo.png" />
+    <Content Include="Wards.aspx" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Default.aspx" />
+    <Content Include="HospitalStyle.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing.aspx.cs">
+      <DependentUpon>Auditing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing.aspx.designer.cs">
+      <DependentUpon>Auditing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\HospitalExceptions.cs" />
+    <Compile Include="DataConsumer.cs" />
+    <Compile Include="DeleteInformationPage.aspx.cs">
+      <DependentUpon>DeleteInformationPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteInformationPage.aspx.designer.cs">
+      <DependentUpon>DeleteInformationPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Departments.aspx.cs">
+      <DependentUpon>Departments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Departments.aspx.designer.cs">
+      <DependentUpon>Departments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DiscDeptWard.aspx.cs">
+      <DependentUpon>DiscDeptWard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DiscDeptWard.aspx.designer.cs">
+      <DependentUpon>DiscDeptWard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeptWardPage.aspx.cs">
+      <DependentUpon>DeptWardPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeptWardPage.aspx.designer.cs">
+      <DependentUpon>DeptWardPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Doctors.aspx.cs">
+      <DependentUpon>Doctors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctors.aspx.designer.cs">
+      <DependentUpon>Doctors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WardTestListView.aspx.cs">
+      <DependentUpon>WardTestListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WardTestListView.aspx.designer.cs">
+      <DependentUpon>WardTestListView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WorkSchedule.aspx.cs">
+      <DependentUpon>WorkSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WorkSchedule.aspx.designer.cs">
+      <DependentUpon>WorkSchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorStaffHistory.aspx.cs">
+      <DependentUpon>DoctorStaffHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorStaffHistory.aspx.designer.cs">
+      <DependentUpon>DoctorStaffHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PatientDisabilities.aspx.cs">
+      <DependentUpon>PatientDisabilities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientDisabilities.aspx.designer.cs">
+      <DependentUpon>PatientDisabilities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patients.aspx.cs">
+      <DependentUpon>Patients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patients.aspx.designer.cs">
+      <DependentUpon>Patients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RelDeptWardPage.aspx.cs">
+      <DependentUpon>RelDeptWardPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RelDeptWardPage.aspx.designer.cs">
+      <DependentUpon>RelDeptWardPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\HospitalClass.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalMaster2.master.cs">
+      <DependentUpon>HospitalMaster2.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HospitalMaster2.master.designer.cs">
+      <DependentUpon>HospitalMaster2.master</DependentUpon>
+    </Compile>
+    <Compile Include="AddInformationPage.aspx.cs">
+      <DependentUpon>AddInformationPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddInformationPage.aspx.designer.cs">
+      <DependentUpon>AddInformationPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegAdminSup.aspx.cs">
+      <DependentUpon>RegAdminSup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegAdminSup.aspx.designer.cs">
+      <DependentUpon>RegAdminSup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalMaster.Master.cs">
+      <DependentUpon>HospitalMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HospitalMaster.Master.designer.cs">
+      <DependentUpon>HospitalMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MailForm.ascx.cs">
+      <DependentUpon>MailForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MailForm.ascx.designer.cs">
+      <DependentUpon>MailForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="DoctorsStaff.aspx.cs">
+      <DependentUpon>DoctorsStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorsStaff.aspx.designer.cs">
+      <DependentUpon>DoctorsStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Testimonials.aspx.cs">
+      <DependentUpon>Testimonials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Testimonials.aspx.designer.cs">
+      <DependentUpon>Testimonials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoggedInPage.aspx.cs">
+      <DependentUpon>LoggedInPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoggedInPage.aspx.designer.cs">
+      <DependentUpon>LoggedInPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage.aspx.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPage.aspx.designer.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Unsubscribe.aspx.cs">
+      <DependentUpon>Unsubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Unsubscribe.aspx.designer.cs">
+      <DependentUpon>Unsubscribe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateRegistration.aspx.cs">
+      <DependentUpon>UpdateRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateRegistration.aspx.designer.cs">
+      <DependentUpon>UpdateRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wards.aspx.cs">
+      <DependentUpon>Wards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wards.aspx.designer.cs">
+      <DependentUpon>Wards.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14584</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:14584/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

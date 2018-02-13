@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ODAC.x86.11g</id>
+    <version>1.0.0</version>
+    <title>32-bit Oracle Data Access Components (ODAC)</title>
+    <authors>Oracle ®</authors>
+    <owners>Oracle ®</owners>
+    <projectUrl>http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html</projectUrl>
+    <iconUrl>http://ark-teknoloji.com/resources/logo-oracle-256x256.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ODAC dll for 32 bits Oracle 11g</description>
+    <summary>I've only uploaded for nuget, all rights are reserved for Oracle ®</summary>
+    <copyright>Oracle ®</copyright>
+    <tags>ODAC Oracle Entity Framework</tags>
+  </metadata>
+</package>

@@ -1,0 +1,6 @@
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\bin\HospitalManager.dll.config
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\bin\HospitalManager.dll
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\bin\HospitalManager.pdb
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\obj\Release\HospitalManager.csprojResolveAssemblyReference.cache
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\obj\Release\HospitalManager.dll
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\obj\Release\HospitalManager.pdb

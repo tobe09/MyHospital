@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HospitalMaster.Master.cs" Inherits="HospitalManager.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link type="text/css" rel="stylesheet" href="HospitalStyle.css" />
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server" style="margin: 0 auto;">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <header>
+            <span class="logo">
+                <img src="Images/NeptuneLogo.png" />
+            </span>Neptune Hospital<br />
+        </header>
+        <nav>
+            <div>
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"></asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" ShowStartingNode="false" runat="server" />
+            </div>
+        </nav>
+        <aside class="asideLeft"></aside>
+        <div class="content">
+            <div style="margin-top: 5px;">
+                <a href="LoggedInPage.aspx" style="text-decoration: none" id="profilePageLink" runat="server">Profile Home</a>
+                <asp:UpdatePanel runat="server" RenderMode="Inline">
+                    <ContentTemplate>
+                        <span style="margin-left: 100px; color: #eb9b2b">
+                            <asp:Label ID="TimerLabel" runat="server" Text="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"></asp:Label>
+                        </span>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                <span style="margin-left: 800px">
+                    <asp:LinkButton ID="LogOutLinkButton" runat="server" Text="LogOut" CausesValidation="false" OnClick="LogOutLinkButton_Click"></asp:LinkButton>
+                </span>
+            </div>
+            <asp:ContentPlaceHolder ClientIDMode="Static" ID="ContentPH" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <aside class="asideRight"></aside>
+        <footer>
+            Footer information comes here
+        </footer>
+        <div style="margin: 3px; text-align: center;">
+            <asp:Label ID="StatusLabel" runat="server" Visible="false" EnableViewState="false" Text="" CssClass="normal"></asp:Label>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        var myVar = setInterval(myTimer, 1000);
+
+        function myTimer() {
+            var d = new Date();
+            document.getElementById("TimerLabel").innerHTML = d.toDateString() + ", " + d.toLocaleTimeString();
+        }
+    </script>
+</body>
+</html>

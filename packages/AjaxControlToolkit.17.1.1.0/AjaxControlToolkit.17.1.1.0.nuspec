@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AjaxControlToolkit</id>
+    <version>17.1.1.0</version>
+    <title>Ajax Control Toolkit</title>
+    <authors>CodePlex Foundation</authors>
+    <owners>CodePlex Foundation</owners>
+    <licenseUrl>https://github.com/DevExpress/AjaxControlToolkit/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/DevExpress/AjaxControlToolkit</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AjaxControlToolkit contains a rich set of controls that you can use to build highly responsive and interactive AJAX-enabled Web applications. AjaxControlToolkit contains more than 40 controls, including the AutoComplete, CollapsiblePanel, ColorPicker, MaskedEdit, Calendar, Accordion, and Watermark controls. Using AjaxControlToolkit, you can build AJAX-enabled ASP.NET Web Forms applications by dragging-and-dropping Toolkit controls from the Visual Studio Toolbox onto a Web Forms page.</description>
+    <summary>Build AJAX applications in Web Forms using more than 40 controls in AjaxControlToolkit.</summary>
+    <copyright>Copyright © CodePlex Foundation 2012-2017</copyright>
+    <language>en-US</language>
+    <tags>Ajax Toolkit</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

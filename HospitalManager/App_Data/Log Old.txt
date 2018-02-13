@@ -1,0 +1,1810 @@
+Date: Tuesday, August 15, 2017
+Time: 1:25:10 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DeleteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 15, 2017
+Time: 1:27:02 PM
+
+Error message: There is no row at position 0.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.Departments.Deletable(String deptName) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 114
+   at HospitalManager.Departments.DeleteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 68
+
+
+Date: Tuesday, August 15, 2017
+Time: 1:27:04 PM
+
+Error message: There is no row at position 0.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.Departments.Deletable(String deptName) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 114
+   at HospitalManager.Departments.DeleteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 68
+
+
+Date: Tuesday, August 15, 2017
+Time: 1:27:11 PM
+
+Error message: There is no row at position 0.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.Departments.Deletable(String deptName) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 114
+   at HospitalManager.Departments.DeleteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 68
+
+
+Date: Tuesday, August 15, 2017
+Time: 1:27:17 PM
+
+Error message: There is no row at position 0.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.Departments.Deletable(String deptName) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 114
+   at HospitalManager.Departments.DeleteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 68
+
+
+Date: Tuesday, August 15, 2017
+Time: 3:14:21 PM
+
+Error message: There is no row at position 0.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.Departments.DivAddButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 15, 2017
+Time: 4:54:53 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 23
+
+
+Date: Tuesday, August 15, 2017
+Time: 4:54:53 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 23
+
+
+Date: Wednesday, August 16, 2017
+Time: 7:25:42 AM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 23
+
+
+Date: Wednesday, August 16, 2017
+Time: 8:37:19 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DeleteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 72
+
+
+Date: Wednesday, August 16, 2017
+Time: 8:37:21 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DeleteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 72
+
+
+Date: Wednesday, August 16, 2017
+Time: 8:37:27 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DeleteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 72
+
+
+Date: Wednesday, August 16, 2017
+Time: 8:37:29 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DeleteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 72
+
+
+Date: Wednesday, August 16, 2017
+Time: 8:41:49 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DeleteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 16, 2017
+Time: 8:41:53 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DeleteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 16, 2017
+Time: 8:41:54 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DeleteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 16, 2017
+Time: 12:46:42 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.DeptWardPage.populateLists() in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 197
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 18
+
+
+Date: Wednesday, August 16, 2017
+Time: 12:46:44 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.DeptWardPage.populateLists() in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 197
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 18
+
+
+Date: Wednesday, August 16, 2017
+Time: 1:24:52 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 16, 2017
+Time: 1:24:55 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 16, 2017
+Time: 1:31:10 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 192
+
+
+Date: Wednesday, August 16, 2017
+Time: 1:31:12 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Departments.aspx.cs:line 192
+
+
+Date: Wednesday, August 16, 2017
+Time: 1:59:47 PM
+
+Error message: Index and length must refer to a location within the string.
+Parameter name: length
+Error stack trace:    at System.String.Substring(Int32 startIndex, Int32 length)
+   at HospitalManager.HospitalClass.PascalCasing(String value) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 166
+   at HospitalManager.Wards.DivAddButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 126
+
+
+Date: Wednesday, August 16, 2017
+Time: 2:37:28 PM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 182
+
+
+Date: Wednesday, August 16, 2017
+Time: 2:37:33 PM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 182
+
+
+Date: Wednesday, August 16, 2017
+Time: 2:38:43 PM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 182
+
+
+Date: Wednesday, August 16, 2017
+Time: 2:38:46 PM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 182
+
+
+Date: Wednesday, August 16, 2017
+Time: 2:40:06 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 16, 2017
+Time: 2:40:15 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 16, 2017
+Time: 2:42:13 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Thursday, August 17, 2017
+Time: 7:33:12 AM
+
+Error message: ORA-12571: TNS:packet writer failure
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 43
+
+
+Date: Thursday, August 17, 2017
+Time: 10:02:44 AM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Departments.DeleteButton_Click(Object sender, EventArgs e)
+
+
+Date: Thursday, August 17, 2017
+Time: 12:08:05 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.DeptWardPage.populateLists() in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 197
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 18
+
+
+Date: Thursday, August 17, 2017
+Time: 12:13:47 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query)
+   at HospitalManager.DeptWardPage.populateLists()
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e)
+
+
+Date: Thursday, August 17, 2017
+Time: 2:15:46 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.DeptWardPage.populateLists() in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 197
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 18
+
+
+Date: Thursday, August 17, 2017
+Time: 2:59:30 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 23
+
+
+Date: Thursday, August 17, 2017
+Time: 3:13:24 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 67
+
+
+Date: Thursday, August 17, 2017
+Time: 4:36:51 PM
+
+Error message: ORA-01400: cannot insert NULL into ("TOBEHOSPITAL"."AUDIT_TRAIL"."UPD_CODE")
+ORA-06512: at "TOBEHOSPITAL.AUDIT_TRAIL_PROC", line 13
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 29
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 131
+
+
+Date: Thursday, August 17, 2017
+Time: 4:37:03 PM
+
+Error message: ORA-01400: cannot insert NULL into ("TOBEHOSPITAL"."AUDIT_TRAIL"."UPD_CODE")
+ORA-06512: at "TOBEHOSPITAL.AUDIT_TRAIL_PROC", line 13
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 29
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 131
+
+
+Date: Thursday, August 17, 2017
+Time: 4:37:09 PM
+
+Error message: ORA-01400: cannot insert NULL into ("TOBEHOSPITAL"."AUDIT_TRAIL"."UPD_CODE")
+ORA-06512: at "TOBEHOSPITAL.AUDIT_TRAIL_PROC", line 13
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 29
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 131
+
+
+Date: Thursday, August 17, 2017
+Time: 4:37:14 PM
+
+Error message: ORA-01400: cannot insert NULL into ("TOBEHOSPITAL"."AUDIT_TRAIL"."UPD_CODE")
+ORA-06512: at "TOBEHOSPITAL.AUDIT_TRAIL_PROC", line 13
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 29
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 131
+
+
+Date: Friday, August 18, 2017
+Time: 8:39:19 AM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e)
+
+
+Date: Friday, August 18, 2017
+Time: 8:39:37 AM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e)
+
+
+Date: Friday, August 18, 2017
+Time: 8:40:14 AM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e)
+
+
+Date: Friday, August 18, 2017
+Time: 8:59:31 AM
+
+Error message: ORA-12154: TNS:could not resolve the connect identifier specified
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 43
+
+
+Date: Friday, August 18, 2017
+Time: 8:59:57 AM
+
+Error message: ORA-12154: TNS:could not resolve the connect identifier specified
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 43
+
+
+Date: Friday, August 18, 2017
+Time: 9:00:41 AM
+
+Error message: ORA-12154: TNS:could not resolve the connect identifier specified
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 43
+
+
+Date: Friday, August 18, 2017
+Time: 9:01:23 AM
+
+Error message: ORA-12154: TNS:could not resolve the connect identifier specified
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 43
+
+
+Date: Friday, August 18, 2017
+Time: 9:01:50 AM
+
+Error message: ORA-12154: TNS:could not resolve the connect identifier specified
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 43
+
+
+Date: Friday, August 18, 2017
+Time: 9:07:57 AM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 67
+
+
+Date: Friday, August 18, 2017
+Time: 9:08:53 AM
+
+Error message: ORA-12154: TNS:could not resolve the connect identifier specified
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 43
+
+
+Date: Friday, August 18, 2017
+Time: 9:10:31 AM
+
+Error message: ORA-12154: TNS:could not resolve the connect identifier specified
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 43
+
+
+Date: Friday, August 18, 2017
+Time: 10:34:06 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 182
+
+
+Date: Friday, August 18, 2017
+Time: 10:34:07 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 182
+
+
+Date: Friday, August 18, 2017
+Time: 10:34:08 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 182
+
+
+Date: Friday, August 18, 2017
+Time: 10:34:20 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Wards.aspx.cs:line 182
+
+
+Date: Friday, August 18, 2017
+Time: 1:02:11 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.DeptWardPage.populateLists() in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 201
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 22
+
+
+Date: Friday, August 18, 2017
+Time: 3:25:03 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.DeptWardPage.populateLists() in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 201
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 22
+
+
+Date: Friday, August 18, 2017
+Time: 4:27:00 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.DeptWardPage.populateLists() in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 201
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 22
+
+
+Date: Friday, August 18, 2017
+Time: 4:39:46 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.DeptWardPage.populateLists() in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 201
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 22
+
+
+Date: Friday, August 18, 2017
+Time: 5:00:39 PM
+
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'SUPERUSER_ADMIN_VAL'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.RegAdminSup.ValidateButton_Click(Object sender, EventArgs e)
+
+
+Date: Monday, August 21, 2017
+Time: 7:50:04 AM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.DeptWardPage.populateLists() in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 201
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 22
+
+
+Date: Monday, August 21, 2017
+Time: 3:21:06 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e)
+
+
+Date: Monday, August 21, 2017
+Time: 3:57:04 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 72
+
+
+Date: Monday, August 21, 2017
+Time: 4:52:40 PM
+
+Error message: ORA-00900: invalid SQL statement
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 36
+
+
+Date: Monday, August 21, 2017
+Time: 4:53:32 PM
+
+Error message: ORA-00923: FROM keyword not found where expected
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 36
+
+
+Date: Monday, August 21, 2017
+Time: 4:53:39 PM
+
+Error message: ORA-00903: invalid table name
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 36
+
+
+Date: Tuesday, August 22, 2017
+Time: 8:35:13 AM
+
+Error message: ORA-00900: invalid SQL statement
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 73
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 39
+
+
+Date: Tuesday, August 22, 2017
+Time: 8:36:26 AM
+
+Error message: ORA-00900: invalid SQL statement
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 31
+
+
+Date: Tuesday, August 22, 2017
+Time: 9:53:52 AM
+
+Error message: ORA-00933: SQL command not properly ended
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 9:55:57 AM
+
+Error message: ORA-00904: "CREATE_ID": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 11:01:49 AM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 18
+
+
+Date: Tuesday, August 22, 2017
+Time: 1:24:29 PM
+
+Error message: ORA-00904: "DATE_REG": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.RegAdminSup.ValidateButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\RegAdminSup.aspx.cs:line 102
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:23:29 PM
+
+Error message: ORA-00900: invalid SQL statement
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 73
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 39
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:23:31 PM
+
+Error message: ORA-00900: invalid SQL statement
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 73
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 39
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:23:41 PM
+
+Error message: ORA-00900: invalid SQL statement
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 73
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 39
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:23:42 PM
+
+Error message: ORA-00900: invalid SQL statement
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 73
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 39
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:26:03 PM
+
+Error message: ORA-00933: SQL command not properly ended
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 31
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:34:24 PM
+
+Error message: ORA-01756: quoted string not properly terminated
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:35:05 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:35:27 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:35:28 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:36:18 PM
+
+Error message: ORA-00933: SQL command not properly ended
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:36:24 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:36:25 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:37:18 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:37:20 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:37:44 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:37:45 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:38:21 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:38:22 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:38:37 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:38:38 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:39:53 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:39:57 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:40:32 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:40:35 PM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:50:39 PM
+
+Error message: ORA-00904: "STATUS": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query)
+   at HospitalManager.DeptWardPage.populateLists()
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:50:43 PM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:50:46 PM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:50:48 PM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 3:55:00 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 20
+
+
+Date: Tuesday, August 22, 2017
+Time: 4:04:28 PM
+
+Error message: ORA-00942: table or view does not exist
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 4:22:17 PM
+
+Error message: ORA-00942: table or view does not exist
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 4:26:19 PM
+
+Error message: ORA-01427: single-row subquery returns more than one row
+ORA-06512: at "TOBEHOSPITAL.WARD_PROC", line 41
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 4:26:27 PM
+
+Error message: ORA-01427: single-row subquery returns more than one row
+ORA-06512: at "TOBEHOSPITAL.WARD_PROC", line 41
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 4:26:37 PM
+
+Error message: ORA-01427: single-row subquery returns more than one row
+ORA-06512: at "TOBEHOSPITAL.WARD_PROC", line 41
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 4:26:39 PM
+
+Error message: ORA-01427: single-row subquery returns more than one row
+ORA-06512: at "TOBEHOSPITAL.WARD_PROC", line 41
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 4:28:44 PM
+
+Error message: ORA-01427: single-row subquery returns more than one row
+ORA-06512: at "TOBEHOSPITAL.WARD_PROC", line 41
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 4:45:32 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 5:04:33 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 5:05:02 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 5:05:56 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 5:06:14 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 5:08:14 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Tuesday, August 22, 2017
+Time: 5:08:18 PM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 7:28:09 AM
+
+Error message: ORA-12571: TNS:packet writer failure
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query)
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 7:38:04 AM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 7:38:17 AM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 7:38:21 AM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 7:38:51 AM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 7:39:36 AM
+
+Error message: Object reference not set to an instance of an object.
+Error stack trace:    at HospitalManager.Wards.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 7:56:43 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 7:56:46 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 7:57:13 AM
+
+Error message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Error stack trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 8:18:25 AM
+
+Error message: There is no row at position 1.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 8:18:27 AM
+
+Error message: There is no row at position 1.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 8:24:31 AM
+
+Error message: There is no row at position 1.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 8:25:52 AM
+
+Error message: There is no row at position 1.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.Departments.DivModifyButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 10:39:09 AM
+
+Error message: ORA-00903: invalid table name
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 32
+
+
+Date: Wednesday, August 23, 2017
+Time: 10:41:13 AM
+
+Error message: ORA-00904: "DATE_UP": invalid identifier
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 53
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 32
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:17:49 AM
+
+Error message: ORA-00936: missing expression
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:17:58 AM
+
+Error message: ORA-01741: illegal zero-length identifier
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:18:01 AM
+
+Error message: ORA-00984: column not allowed here
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:18:09 AM
+
+Error message: ORA-01756: quoted string not properly terminated
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:19:02 AM
+
+Error message: ORA-00933: SQL command not properly ended
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:19:17 AM
+
+Error message: ORA-00933: SQL command not properly ended
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:19:19 AM
+
+Error message: ORA-00933: SQL command not properly ended
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:19:32 AM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:19:41 AM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:19:43 AM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:21:17 AM
+
+Error message: ORA-03290: Invalid truncate command - missing CLUSTER or TABLE keyword
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 11:29:35 AM
+
+Error message: ORA-00911: invalid character
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query)
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 1:27:08 PM
+
+Error message: There is no row at position 0.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 1:34:04 PM
+
+Error message: There is no row at position 0.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 1:34:09 PM
+
+Error message: There is no row at position 0.
+Error stack trace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 2:04:54 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.Unsubscribe.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Unsubscribe.aspx.cs:line 55
+
+
+Date: Wednesday, August 23, 2017
+Time: 3:11:52 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.Unsubscribe.SubmitButton_Click(Object sender, EventArgs e)
+
+
+Date: Wednesday, August 23, 2017
+Time: 3:23:00 PM
+
+Error message: ORA-01407: cannot update ("TOBEHOSPITAL"."AUDIT_TRAIL"."USER_ID") to NULL
+ORA-06512: at "TOBEHOSPITAL.UNSB_PROC", line 85
+ORA-06512: at line 1
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.Unsubscribe.SubmitButton_Click(Object sender, EventArgs e)
+
+
+Date: Thursday, August 24, 2017
+Time: 10:11:11 AM
+
+Error message: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'ADD_DEL_WARD' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 29
+   at HospitalManager.DeptWardPage.WardAddButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 95
+
+
+Date: Thursday, August 24, 2017
+Time: 11:07:34 AM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 18
+
+
+Date: Thursday, August 24, 2017
+Time: 11:35:50 AM
+
+Error message: ORA-00933: SQL command not properly ended
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 65
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 34
+
+
+Date: Thursday, August 24, 2017
+Time: 2:10:58 PM
+
+Error message: ORA-00933: SQL command not properly ended
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 65
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 34
+
+
+Date: Friday, August 25, 2017
+Time: 8:33:41 AM
+
+Error message: Sequence contains no elements
+Error stack trace:    at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e)
+
+
+Date: Friday, August 25, 2017
+Time: 8:33:51 AM
+
+Error message: Sequence contains no elements
+Error stack trace:    at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e)
+
+
+Date: Friday, August 25, 2017
+Time: 10:05:47 AM
+
+Error message: ORA-00903: invalid table name
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 65
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 34
+
+
+Date: Friday, August 25, 2017
+Time: 12:21:41 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 18
+
+
+Date: Friday, August 25, 2017
+Time: 1:14:49 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 18
+
+
+Date: Friday, August 25, 2017
+Time: 1:29:31 PM
+
+Error message: ORA-00936: missing expression
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 65
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 34
+
+
+Date: Friday, August 25, 2017
+Time: 1:46:04 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.DeptWardPage.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DeptWardPage.aspx.cs:line 20
+
+
+Date: Friday, August 25, 2017
+Time: 1:46:14 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 18
+
+
+Date: Friday, August 25, 2017
+Time: 1:47:26 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 18
+
+
+Date: Friday, August 25, 2017
+Time: 2:09:20 PM
+
+Error message: ORA-00933: SQL command not properly ended
+
+Error stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeQuery(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 73
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 42
+
+
+Date: Friday, August 25, 2017
+Time: 2:18:02 PM
+
+Error message: Thread was being aborted.
+Error stack trace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at HospitalManager.UpdateRegistration.Page_Load(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\UpdateRegistration.aspx.cs:line 18
+
+
+Date: Friday, August 25, 2017
+Time: 4:27:36 PM
+
+Error message: ORA-00903: invalid table name
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\HospitalClass.cs:line 65
+   at HospitalManager.Auditing.ExecuteButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Auditing.aspx.cs:line 34
+
+
+Date: Monday, August 28, 2017
+Time: 8:29:20 AM
+
+Error message: ORA-01756: quoted string not properly terminated
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query)
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e)
+
+
+Date: Monday, August 28, 2017
+Time: 8:29:36 AM
+
+Error message: ORA-01756: quoted string not properly terminated
+
+Error stack trace:    at HospitalManager.HospitalClass.getDataTable(String query)
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e)

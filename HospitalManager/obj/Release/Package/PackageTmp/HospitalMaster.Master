@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HospitalMaster.Master.cs" Inherits="HospitalManager.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link type="text/css" rel="stylesheet" href="HospitalStyle.css" />
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>Neptune Hospital<br /></header>
+        <nav><asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"></asp:Menu> 
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" ShowStartingNode="false" runat="server" />
+        </nav>
+        <aside class="asideLeft"></aside>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="ContentPH" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <aside class="asideRight"></aside>
+        <footer>Footer information comes here</footer>
+    </form>
+</body>
+</html>

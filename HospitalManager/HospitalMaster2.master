@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/HospitalMaster.Master" AutoEventWireup="true" CodeBehind="HospitalMaster2.master.cs" Inherits="HospitalManager.HospitalMaster2" %>
+
+<asp:Content ID="SecondContent" ContentPlaceHolderID="ContentPH" runat="server">
+
+    <div id="sideDiv" runat="server">
+        <div id="Div1" runat="server">
+            <div id="userIdDiv" runat="server" style="margin-left: 10px; text-align: center;">
+                <asp:Label ID="UserIdLabel" runat="server" ForeColor="Brown" Text="User"></asp:Label>
+                <br />
+                <br />
+            </div>
+            <div runat="server" style="text-align: center">
+                <h3>General</h3>
+                <ul class="dropDownMenu">
+                    <li><a id="userProfile" href="../UpdateRegistration.aspx">-User profile</a> </li>
+                    <li><a href="../ChangePassword.aspx">-Change Password</a></li>
+                </ul>
+                <br />
+                <br />
+                <div id="PatientDiv" runat="server" visible="false">
+                    <h3>Patient's Sections</h3>
+                    <ul class="dropDownMenu">
+                        <li>
+                            <asp:LinkButton ID="PatientIssuesButton" runat="server" CausesValidation="false" OnClick="PatientIssuesButton_Click">-Patient's Issues</asp:LinkButton></li>
+                    </ul>
+                    <br />
+                    <br />
+                </div>
+                <div id="StaffDiv" runat="server" visible="false">
+                    <h3>
+                        <asp:Label ID="DocStfSectionLabel" runat="server"></asp:Label></h3>
+                    <ul class="dropDownMenu">
+                        <li>
+                            <asp:LinkButton ID="EmpHistButton" runat="server" CausesValidation="false" OnClick="EmpHistButton_Click">-Employment History</asp:LinkButton>
+                        </li>
+                    </ul>
+                    <br />
+                    <br />
+                </div>
+                <div id="adminDiv" runat="server" visible="false">
+                    <h3>Admin Section</h3>
+                    <asp:UpdatePanel runat="server" UpdateMode="Conditional">
+                        <ContentTemplate>
+                            <ul class="dropDownMenu">
+                                <li>
+                                    <asp:LinkButton ID="PatientsLinkBtn" runat="server" CssClass="underline" CausesValidation="false" OnClick="PatientsLinkBtn_Click">Patients</asp:LinkButton>
+                                </li>
+                                <li class="dropMenu">
+                                    <asp:Panel ID="PatientDivAdm" runat="server" Visible="false">
+                                        <a href="PatientDisabilities.aspx" class="subMenu">-Patient Issues</a>
+                                    </asp:Panel>
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="Doctors" runat="server" CssClass="underline" CausesValidation="false" OnClick="Doctors_Click">Doctors</asp:LinkButton>
+                                </li>
+                                <li class="dropMenu">
+                                    <asp:Panel ID="DocDivAdm" runat="server" Visible="false">
+                                        <a href="DoctorStaffHistory.aspx" class="subMenu">-Doctor History</a>
+                                        <a href="WorkSchedule.aspx" class="subMenu">-Work Schedule</a>
+                                    </asp:Panel>
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="StaffLinkBtn" runat="server" CssClass="underline" CausesValidation="false" OnClick="StaffLinkBtn_Click">Staff</asp:LinkButton>
+                                </li>
+                                <li class="dropMenu">
+                                    <asp:Panel ID="StfDivAdm" runat="server" Visible="false">
+                                        <a href="DoctorStaffHistory.aspx" class="subMenu">-Staff History</a>
+                                        <a href="WorkSchedule.aspx" class="subMenu">-Work Schedule</a>
+                                    </asp:Panel>
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="InfoLinkBtn" runat="server" CssClass="underline" CausesValidation="false" OnClick="InfoLinkBtn_Click">Information</asp:LinkButton>
+                                </li>
+                                <li class="dropMenu">
+                                    <asp:Panel ID="InfoDivAdm" runat="server" Visible="false">
+                                        <a href="AddInformationPage.aspx" class="subMenu">-Add Information</a>
+                                        <a href="DeleteInformationPage.aspx" class="subMenu">-Modify Information</a>
+                                    </asp:Panel>
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="DeptWardLinkBtn" runat="server" CssClass="underline" CausesValidation="false" OnClick="DeptWardLinkBtn_Click">Dept and Wards</asp:LinkButton>
+                                </li>
+                                <li class="dropMenu">
+                                    <asp:Panel ID="DeptDivAdm" runat="server" Visible="false">
+                                        <a href="Departments.aspx" class="subMenu">-Departments</a>
+                                        <a href="Wards.aspx" class="subMenu">-Wards</a>
+                                        <a href="RelDeptWardPage.aspx" class="subMenu">-Relate Dept-Ward</a>
+                                        <a href="DiscDeptWard.aspx" class="subMenu">-Unrelate Dept-Ward</a>
+                                    </asp:Panel>
+                                </li>
+                            </ul>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                    <br />
+                    <br />
+                </div>
+
+                <div id="suDiv" runat="server" visible="false">
+                    <h3>SuperUser Section</h3>
+                    <ul class="dropDownMenu">
+                        <li><a href="../RegAdminSup.aspx">-Register<br />
+                            Admin/SuperUser</a> </li>
+                        <li><a href="../Auditing.aspx">-Auditing</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div id="unSubDiv" runat="server" visible="false">
+                <a href="../Unsubscribe.aspx" style="font-size: 14px; color: #ff6a00;">Unsubscribe</a>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ClientIDMode="Static" ID="SideContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="mainDiv" runat="server">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" ClientIDMode="Static">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</asp:Content>

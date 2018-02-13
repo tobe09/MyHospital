@@ -1,0 +1,62 @@
+;;; 
+Export: Release 11.1.0.6.0 - Production on Tuesday, 29 August, 2017 11:19:04
+
+Copyright (c) 2003, 2007, Oracle.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.1.0.6.0 - Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Starting "TOBEHOSPITAL"."SYS_EXPORT_SCHEMA_01":  tobehospital/******** directory=tobe_dump_dir dumpfile=tobehospital.dmp logfile=expdp_tobehospital.log 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 1.687 MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/POST_SCHEMA/PROCACT_SCHEMA
+. . exported "TOBEHOSPITAL"."IMAGES"                     175.5 KB       7 rows
+. . exported "TOBEHOSPITAL"."AUDIT_TRAIL"                90.09 KB    1336 rows
+. . exported "TOBEHOSPITAL"."ADMINISTRATORS"             27.79 KB       3 rows
+. . exported "TOBEHOSPITAL"."BEDS"                       6.406 KB       4 rows
+. . exported "TOBEHOSPITAL"."DEPARTMENTS"                8.820 KB      15 rows
+. . exported "TOBEHOSPITAL"."DEPT_WARD"                  6.742 KB      10 rows
+. . exported "TOBEHOSPITAL"."DOCTORS"                    28.46 KB       3 rows
+. . exported "TOBEHOSPITAL"."GENERAL_INFO"               10.81 KB      25 rows
+. . exported "TOBEHOSPITAL"."OTHER_CODES"                5.617 KB       5 rows
+. . exported "TOBEHOSPITAL"."PATIENTS"                   18.19 KB       3 rows
+. . exported "TOBEHOSPITAL"."PAT_DISAB"                  8.070 KB       6 rows
+. . exported "TOBEHOSPITAL"."ROLES"                      6.468 KB      15 rows
+. . exported "TOBEHOSPITAL"."STAFFS"                     26.94 KB       2 rows
+. . exported "TOBEHOSPITAL"."SUPERUSERS"                 27.03 KB       2 rows
+. . exported "TOBEHOSPITAL"."TEST_TABLE"                 6.414 KB       5 rows
+. . exported "TOBEHOSPITAL"."UNSUBSCRIBED"                9.25 KB       8 rows
+. . exported "TOBEHOSPITAL"."UPDATES"                    8.898 KB     187 rows
+. . exported "TOBEHOSPITAL"."UPD_CODES"                  9.531 KB      55 rows
+. . exported "TOBEHOSPITAL"."USERS"                      10.00 KB      13 rows
+. . exported "TOBEHOSPITAL"."WARDS"                      9.375 KB      19 rows
+. . exported "TOBEHOSPITAL"."ADMIN_SU_HIST"                  0 KB       0 rows
+. . exported "TOBEHOSPITAL"."ADMIN_SU_WORK_HIST"             0 KB       0 rows
+. . exported "TOBEHOSPITAL"."ADMITTED"                       0 KB       0 rows
+. . exported "TOBEHOSPITAL"."DISCHARGED"                     0 KB       0 rows
+. . exported "TOBEHOSPITAL"."DOC_HIST"                       0 KB       0 rows
+. . exported "TOBEHOSPITAL"."DOC_WK_HIST"                    0 KB       0 rows
+. . exported "TOBEHOSPITAL"."PAT_HIST"                       0 KB       0 rows
+. . exported "TOBEHOSPITAL"."ROOMS"                          0 KB       0 rows
+. . exported "TOBEHOSPITAL"."STF_HIST"                       0 KB       0 rows
+. . exported "TOBEHOSPITAL"."STF_WK_HIST"                    0 KB       0 rows
+. . exported "TOBEHOSPITAL"."WARD_TEMP"                      0 KB       0 rows
+Master table "TOBEHOSPITAL"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for TOBEHOSPITAL.SYS_EXPORT_SCHEMA_01 is:
+  G:\TOBEHOSPITAL\TOBEHOSPITAL.DMP
+Job "TOBEHOSPITAL"."SYS_EXPORT_SCHEMA_01" successfully completed at 11:19:35

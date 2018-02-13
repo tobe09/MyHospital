@@ -1,0 +1,111 @@
+Exception 1
+
+
+
+Date: Friday, September 29, 2017
+Time: 2:57:46 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'WARD_PROC'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+Error's stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.WardTestListView.DivModifyButton_Click(Object sender, EventArgs e)
+#########################################################################################
+
+
+Exception 2
+
+Date: Friday, September 29, 2017
+Time: 2:57:50 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'WARD_PROC'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+Error's stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.WardTestListView.DivModifyButton_Click(Object sender, EventArgs e)
+#########################################################################################
+
+
+Exception 3
+
+Date: Friday, September 29, 2017
+Time: 2:57:57 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'WARD_PROC'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+Error's stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.WardTestListView.DivModifyButton_Click(Object sender, EventArgs e)
+#########################################################################################
+
+
+Exception 4
+
+Date: Friday, September 29, 2017
+Time: 3:00:27 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'WARD_PROC'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+Error's stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProcedure(String procedureName, List`1 values)
+   at HospitalManager.WardTestListView.DivModifyButton_Click(Object sender, EventArgs e)
+#########################################################################################
+
+
+Exception 5
+
+Date: Tuesday, October 31, 2017
+Time: 10:04:18 AM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'AUDIT_TRAIL_PROC'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+Error's stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProc(String procedureName, Object[] values) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 43
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 126
+#########################################################################################
+
+
+Exception 6
+
+Date: Tuesday, October 31, 2017
+Time: 10:06:49 AM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'AUDIT_TRAIL_PROC'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+Error's stack trace:    at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   at System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   at HospitalManager.DataConsumer.executeProc(String procedureName, Object[] values) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\DataConsumer.cs:line 43
+   at HospitalManager.Login1.SubmitButton_Click(Object sender, EventArgs e) in c:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\Login.aspx.cs:line 126
+#########################################################################################
+
+
+Exception 7

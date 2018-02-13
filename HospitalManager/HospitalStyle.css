@@ -1,0 +1,215 @@
+﻿body 
+{
+    background-color:white;
+    width:100%;
+    height: 100%;
+    margin:0 auto;
+    padding:0;
+    align-content:center;
+    align-self:center;
+    align-items:center;
+}
+.logo 
+{
+    margin-left: 600px;
+    margin-top: 15px;
+    position: absolute;
+}
+header
+{
+    text-align:center;
+    font-size:45px;
+    line-height: 90px;
+    height: 100px;
+    color:blue;
+}
+nav
+{
+    height: 40px;
+    width:100%;
+    background-color: #b9dcb5;
+}
+.asideLeft
+{
+    width:1px; 
+    height:755px; 
+    float:left;
+
+}
+.asideRight
+{
+    width:1px; 
+    height:750px; 
+    float:left;
+}
+.content
+{
+    float:left; 
+    width:99%;
+    padding:0px !important;
+    margin:5px auto !important; 
+    align-content:center;
+    align-self:center;
+    align-items:center;
+}
+footer
+{
+    clear: both;
+    margin-left:1px;
+    margin-right:5px;
+    height: 30px;
+    background-color: #b9dcb5;
+}
+#sideDiv
+{
+    width: 180px; 
+    float:left;
+    position:absolute;
+    margin-bottom: 5px;
+    height: 715px;
+    background-color:#f6f1eb;
+    border-width: 2px;
+    border-color: #3e2e2e;
+    overflow: auto;
+}
+#mainDiv{float: left; margin-left:190px; width:1050px;}
+.historyDiv{
+    float:left;
+    overflow:auto; 
+    height:260px;
+    width:830px;
+    border-color: #514d4d;
+    border-width: 2px;
+    margin-bottom:10px;
+}
+.profileDiv{ 
+    float:right;
+    width: 200px;
+    margin:5px;
+    height: 265px;
+}
+.profilePicDiv{margin-left: 50px; margin-top:5px;}
+.activitiesDiv{float:left;}
+li.static 
+{
+    margin-top: 6px;
+    width: 140px;
+    text-align: center;
+}
+ul.level1 {  margin-left: 86px !important;}
+    ul.level1 .selected { background-color: #f4f6c3; }
+ul.level2 { float :right !important; background-color: #d7d279; }
+a.level1{font-size:20px;}
+a.level2
+{
+    margin: 14px !important;
+    font-size:16px;
+    margin-top:14px;
+}
+a.level1:hover, a.level2:hover{background-color: #7db8c8;}
+
+.heading
+{
+    font-size: 20px;
+    color: #5a73a8;
+    line-height:25px;
+}
+.goto
+{
+    font-size: 17px;
+    text-decoration-line: none
+
+}
+.addDelDiv
+{
+    border: 1px solid; 
+    border-color: #1b0505;
+    background-color: #ead3d3; 
+    width: 710px
+}
+h3 {margin: 10px;}
+.centerText{text-align:center;}
+.error{color:red;}
+.success {color: green;}
+.populate{background-color:#e4beb6 !important}
+.veryLarge{font-size:40px;}
+.large{font-size:35px;}
+.big{font-size:30px;}
+.paraNormal{font-size:25px;}
+.normal{font-size:20px;}
+.small{font-size:15px;}
+.button
+{
+    background-color: #a0accf;
+    margin-right: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.textBox{background-color: #f4f6c3}
+input[type="text"]  
+{
+    background-color: #f2efb9;
+    margin-bottom: 0px;
+}
+.TextBox{background-color: #f2efb9;
+    margin-bottom: 10px;
+}
+input[type="submit"]  
+{
+    background-color: #98b2e6;
+    font-size: 14px;
+    font-weight: bold;
+}
+.dropDownMenu, .dropDownMenu ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    .dropDownMenu a {
+        display: block;
+        margin: 5px;
+        padding: 5px;
+    }
+    
+a {text-decoration: none;}
+a:link{}
+a:visited{}
+a:hover{}
+        .dropDownMenu a:hover {
+            background: lightgreen;
+        }
+a:active { background-color: #f4f6c3 !important; }  /*Error: Not taking effect*/
+ /* Level 1 Drop Down Menu */
+    .dropDownMenu > li {
+        display: block;
+        vertical-align: top;
+        margin-left: -4px;
+        /* solve the 4 pixels spacing between list-items */;
+    }
+.underline{text-decoration: underline !important;}
+.dropMenu{ background-color: #fff;}
+.subMenu { padding: 0px !important;}
+    .subMenu:hover {background-color: yellow !important;}
+    .subMenu:active{ background-color: #f4f6c3 !important;}  /*Error: Not taking effect*/
+.table 
+{
+    text-align: center;
+    width: 1000px;
+    font-size: 17px;
+}
+.aspTableHeader{background-color: #64b9f8; font-size: 20px; height: 30px;}
+.itemTemplate{border: 2px solid; border-color: black; height: 40px;}
+.altItemTemplate{background-color: #e3ede3; border: 2px solid; border-color: black; height: 40px}
+.selItemTemplate{background-color: #b6b451; height: 40px}
+.selectedColor{color:#987914;}
+.listViewMainTable{text-align: center; width: 1050px; font-size: 17px; background-color: #f5f8fe;}
+.listViewMainHeader{background-color: #64b9f8; height: 50px; font-size: 20px;}
+.listViewSearchTable{text-align: center; width: 1000px; font-size: 15px; background-color: #fff;}
+.listViewSearchheader{background-color: #4d934a; height: 30px; font-size: 16px}
+.addColor {color:black !important;}
+/*.removeColor {background-color: #f8af9e !important; }
+ .cancelColor {background-color: #faeede !important; }
+ .standardColor{background-color: #faeede !important}
+ .width{width:250px;}
+ .textArea{width:250px;height:60px;}*/
