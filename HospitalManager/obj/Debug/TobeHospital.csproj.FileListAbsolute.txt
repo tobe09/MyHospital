@@ -5,3 +5,10 @@ C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\Hospi
 C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\obj\Debug\TobeHospital.csprojResolveAssemblyReference.cache
 C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\obj\Debug\HospitalManager.dll
 C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\HospitalManager\HospitalManager\obj\Debug\HospitalManager.pdb
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\TobeHospital\HospitalManager\bin\HospitalManager.dll.config
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\TobeHospital\HospitalManager\bin\HospitalManager.dll
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\TobeHospital\HospitalManager\bin\HospitalManager.pdb
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\TobeHospital\HospitalManager\bin\AjaxControlToolkit.dll
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\TobeHospital\HospitalManager\obj\Debug\TobeHospital.csprojResolveAssemblyReference.cache
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\TobeHospital\HospitalManager\obj\Debug\HospitalManager.dll
+C:\Users\NeptuneDev1\Documents\Visual Studio 2013\Projects\Git\TobeHospital\HospitalManager\obj\Debug\HospitalManager.pdb

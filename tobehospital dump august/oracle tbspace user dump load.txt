@@ -1,0 +1,45 @@
+1.	create tablespace PEOPLEPLUSNEW_TS
+	datafile 'F:\oracle\product\10.2.0\oradata\orcl\PEOPLEPLUSNEW_TS.dbf'
+	size 30000m autoextend on next 50m
+	maxsize unlimited
+	logging
+	online
+	permanent
+	extent management local autoallocate
+	blocksize 8k
+	segment space management auto
+	flashback on;
+
+
+2.	create user  identified by NEPTUNE default tablespace NEPTUNE_TS;
+
+3.	GRANT SELECT_CATALOG_ROLE TO PEOPLEPLUSNEW;
+	GRANT imp_full_database TO PEOPLEPLUSNEW;
+	GRANT EXECUTE_CATALOG_ROLE TO PEOPLEPLUSNEW;
+	GRANT JAVA_DEPLOY TO PEOPLEPLUSNEW;
+	GRANT CONNECT TO PEOPLEPLUSNEW;
+	GRANT EXP_FULL_DATABASE TO PEOPLEPLUSNEW;
+	GRANT JAVA_ADMIN TO PEOPLEPLUSNEW;
+	GRANT OEM_MONITOR TO PEOPLEPLUSNEW;
+	GRANT RESOURCE TO PEOPLEPLUSNEW;
+	GRANT CREATE VIEW TO PEOPLEPLUSNEW;
+	GRANT CREATE SEQUENCE TO PEOPLEPLUSNEW;
+	GRANT UNLIMITED TABLESPACE TO PEOPLEPLUSNEW;
+	GRANT CREATE SESSION TO PEOPLEPLUSNEW;
+
+4.	create directory dump_dir as 'D:\app\Neptune\product\11.1.0\DUMP';
+
+5.	grant read, write on directory dump_dir to NEPTUNE
+
+
+6. $impdp NEPTUNE/NEPTUNE directory=dump_dir dumpfile=MRSUNDAY_VERSION_11_2_0_1_0.dmp full=n logfile=NEPTUNE.log remap_schema=old_shema:new_schema
+
+Syntax for dumping database for a schema: $expdp NEPTUNE/NEPTUNE dumpfile=NEPTUNE_05032018.dmp version=11.2.0.1.0
+
+/* ****************************************************************************************** Honeytempt
+*                                                                                           *
+*	to import form sql environment use this                                             *
+*                                                                                           *
+*	imp BIBCLIVE/BIBCLIVE 'C:\app\wisdom\product\11.2.0\dump' dumpfile=BIBCLIVE.DMP full=n logfile=BIBCLIVE.log  *
+*               E:\Dumps                                                                            *
+*********************************************************************************************/
